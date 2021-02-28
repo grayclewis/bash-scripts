@@ -2,7 +2,7 @@
 
 # Takes a filename as a param - reads the file and prints any
 # line starting with: URL, HTTP or Location
-# Example: `./read-urls.sh output.txt`
+# Example: `./read-urls.sh files/output.txt`
 
 filename=$1
 IFS=' '

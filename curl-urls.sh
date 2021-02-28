@@ -4,8 +4,8 @@
 # the file and curls the URL outputing the response. If curl
 # takes longer than 10 seconds - assume it's hanging and move on.
 # Example:
-# ./curl-urls.sh urls.txt
-# ./curl-urls.sh urls.txt > output.txt - to save output to a file
+# ./curl-urls.sh files/urls.txt
+# ./curl-urls.sh files/urls.txt > files/output.txt - to save output to a file
 
 filename=$1
 

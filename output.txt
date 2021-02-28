@@ -1,0 +1,51 @@
+URL: https://example.com
+HTTP/2 200 
+content-encoding: gzip
+accept-ranges: bytes
+age: 492377
+cache-control: max-age=604800
+content-type: text/html; charset=UTF-8
+date: Sun, 28 Feb 2021 10:23:13 GMT
+etag: "3147526947"
+expires: Sun, 07 Mar 2021 10:23:13 GMT
+last-modified: Thu, 17 Oct 2019 07:18:26 GMT
+server: ECS (nyb/1D0F)
+x-cache: HIT
+content-length: 648
+
+curl -I https://example.com
+URL: https://www.bbc.co.uk
+HTTP/2 200 
+date: Sun, 28 Feb 2021 10:23:13 GMT
+content-type: text/html
+content-length: 350885
+belfrage-cache-status: HIT
+bid: bruce
+brequestid: 504e15f77ac74ea7a211cb07a69a2ec7
+bsig: c17808d11d40816b2eba1a23ffb11ba3
+cache-control: public, stale-if-error=90, stale-while-revalidate=30, max-age=30
+content-security-policy: default-src 'none'; script-src 'strict-dynamic' 'nonce-hP8yiOlB7tpk5ps7TfrpkckKujQu8f7f7Du9c5iYASaIdbVv5F' 'self' 'report-sample' 'unsafe-inline' assets.wearehearken.com cdn.syndication.twimg.com connect.facebook.net emp.bbci.co.uk ems.wearehearken.com modules.wearehearken.com mybbc-analytics.files.bbci.co.uk nav.files.bbci.co.uk news.files.bbci.co.uk platform.twitter.com public.flourish.studio static.bbc.co.uk static.bbci.co.uk static.chartbeat.com static2.chartbeat.com www.bbc.co.uk www.instagram.com www.ons.gov.uk gn-web-assets.api.bbc.com www.google-analytics.com static.files.bbci.co.uk; img-src 'self' c.files.bbci.co.uk data: https://a1.api.bbc.co.uk i.ytimg.com ichef.bbci.co.uk logws1363.ati-host.net news.bbcimg.co.uk news.files.bbci.co.uk newsimg.bbc.co.uk pbs.twimg.com ping.chartbeat.net platform.twitter.com r.bbci.co.uk sb.scorecardresearch.com syndication.twitter.com ton.twimg.com www.google-analytics.com static.files.bbci.co.uk; font-src gel.files.bbci.co.uk static.bbci.co.uk news.files.bbci.co.uk ws-downloads.files.bbci.co.uk; style-src cdn.riddle.com flo.uri.sh news.files.bbci.co.uk platform.twitter.com static.bbc.co.uk static.bbci.co.uk ton.twimg.com www.riddle.com 'unsafe-inline'; frame-src 'self' bbc001.carto.com bbc003.carto.com bbc-maps.carto.com cdn.riddle.com chartbeat.com emp.bbc.co.uk emp.bbc.com flo.uri.sh m.facebook.com news.files.bbci.co.uk personaltaxcalculator2.deloittecloud.co.uk platform.twitter.com public.flourish.studio static2.chartbeat.com syndication.twitter.com web.facebook.com www.bbc.co.uk www.facebook.com www.instagram.com www.ons.gov.uk www.riddle.com www.youtube.com; object-src 'none'; worker-src 'self' blob:; manifest-src static.files.bbci.co.uk; connect-src 'self' cookie-oven.api.bbc.co.uk cookie-oven.api.bbc.com ems.wearehearken.com https://a1.api.bbc.co.uk locator-service.api.bbci.co.uk logws1363.ati-host.net modules.wearehearken.com mybbc-analytics.files.bbci.co.uk news.files.bbci.co.uk static.files.bbci.co.uk platform.twitter.com search.api.bbci.co.uk search.api.bbci.com www.bbc.co.uk www.bbc.com www.google-analytics.com idcta.api.bbc.co.uk https://europe-west1-bbc-otg-traf-mgr-bq-prod-4591.cloudfunctions.net; child-src blob:; base-uri 'none'; form-action 'self' platform.twitter.com syndication.twitter.com; frame-ancestors 'none'; upgrade-insecure-requests; report-to default; report-uri https://europe-west1-bbc-otg-traf-mgr-bq-prod-4591.cloudfunctions.net/report-endpoint;
+feature-policy: accelerometer 'none'; autoplay 'none'; camera 'none'; document-domain 'self' https://emp.bbc.com https://emp.bbc.co.uk http://emp.bbc.com http://emp.bbc.co.uk; encrypted-media 'none'; fullscreen 'self'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'none'; picture-in-picture 'self' https://emp.bbc.com https://emp.bbc.co.uk http://emp.bbc.com http://emp.bbc.co.uk; screen-wake-lock 'none'; sync-xhr 'none'; usb 'none'; xr-spatial-tracking 'none'
+nel: {"report_to":"default","max_age":2592000,"include_subdomains":true,"failure_fraction":0.05}
+referrer-policy: strict-origin-when-cross-origin
+report-to: {"group":"default","max_age":2592000,"endpoints":[{"url":"https://europe-west1-bbc-otg-traf-mgr-bq-prod-4591.cloudfunctions.net/report-endpoint","priority":1}],"include_subdomains":true}
+req-svc-chain: GTM,BELFRAGE
+vary: accept-encoding
+via: 2.0 BBC-GTM, 1.1 Belfrage
+x-content-type-options: nosniff
+x-frame-options: DENY
+x-xss-protection: 1; mode=block
+x-lb-nocache: true
+x-bbc-edge-cache-status: HIT
+server: BBC-GTM
+
+curl -I https://www.bbc.co.uk
+URL: http://walsall.gov.uk
+HTTP/1.1 301 Moved Permanently
+Content-Length: 149
+Content-Type: text/html; charset=UTF-8
+Location: https://go.walsall.gov.uk/
+Server: Microsoft-IIS/10.0
+Date: Sun, 28 Feb 2021 10:23:13 GMT
+
+curl -I http://walsall.gov.uk
